@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: #00FF00;
+}
+
+.menu a:hover{
+    color: #8b1818
+}
+
+nav > h1{
+    font-family: 'Niramit', sans-serif;
+    text-shadow: -1px -1px #006b24;
+}
+
+.menu{
+    display: flex;
+    background-color: #ffffff77;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-wrap: nowrap;
+
+}
+
+.menu li{
+    display: inline;
+    padding-right: 25px;
+}
+
+.banner{
+    text-align: center;
+    color: white;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.conteudo{
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.conteudo ul{
+    padding-bottom: 20px;
+}
+
+.conteudo > div{
+    /* padding: 200px; */
+    margin: 0px 20px 0px 20px;
+    border: white solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.experiencias{
+    /* padding-bottom: 80px; */
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.C{
+    align-self: flex-start;
+}
+
+.prog{
+    /* padding-top: 150px;
+    padding-bottom: 150px; */
+    color: #00FF00;
+    font-family: monospace;
+}
+
+.ling li{
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.ling li:last-child{
+    padding: 0px;
+}
+
+.ling ul{
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #00FF00;
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+footer li{
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    padding: 35px 10px 25px 10px;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px;
+    border: white solid 1px;
+}
+
+.redes img{
+    width: 20px;
+}
